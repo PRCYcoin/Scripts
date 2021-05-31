@@ -30,7 +30,7 @@ echo externalip=$IP:59682 >> prcycoin.conf
 echo masternodeaddr=$IP:59682 >> prcycoin.conf
 echo bind=$IP:59682 >> prcycoin.conf
 echo masternodeprivkey= >> prcycoin.conf
-vi prcycoin.conf >> prcycoin.conf
+nano prcycoin.conf >> prcycoin.conf
 echo "Setting up and enabling fail2ban..."
 sudo apt-get install fail2ban -y
 sudo ufw allow ssh
